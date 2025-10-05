@@ -1,0 +1,51 @@
+
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  
+}
+p {
+  text-align: center;
+  color: #fee;
+}
+
+.container {
+
+  border: 2px solid rgb(75 70 74);
+  border-radius: 0.5em;
+  font: 1.2em sans-serif;
+
+  height: 300px;
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+
+  text-shadow: 0 0 10px lightgoldenrodyellow
+
+  /*-webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;*/
+}
+
+
+@-webkit-keyframes glow {
+  /*from {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  }
+  to {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  }*/
+}
