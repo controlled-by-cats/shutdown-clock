@@ -1,5 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
+@font-face {
+    font-family: "Xanh Mono";
+    src: url("XanhMono-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
   background-color: black;
@@ -45,18 +49,4 @@ p {
   text-align: center;
 
   text-shadow: 0 0 10px lightgoldenrodyellow
-
-  /*-webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;*/
-}
-
-
-@-webkit-keyframes glow {
-  /*from {
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-  }
-  to {
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-  }*/
 }
